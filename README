@@ -1,0 +1,33 @@
+ En globalite je dirai que le tp etait vraiment plus simple que le 1er :
+Je n'ai pas eu de vraies prises de tetes de sur un exo comme avec les fractales ...
+Cependant, j'ai quand meme rencontre une ou deux difficultes pour certains exos :
+- nth : J'ai commence par essayer de le faire sans fonction auxilliere 
+ce qui a rendu la tache un peu complique. Finalement c'est en me 
+rendant compte apres un petit temps qu'avec une fonction aux je pouvais 
+faire commencer mes termes au rang 0. 
+- assoc : Quand c'est pas l'un c'est l'autre, pour celle ci j'ai essaye de 
+la resoudre avec une fonctions auxiliere ce qui me renvoyait un warning,
+C'est en essayant de la faire en enlevant ma fonction aux que le warning disparu
+- Shared : Le shared m'a pris la tete pendant un petit moment : 
+Dans le dernier cas de mon match with , j'ai inverse les cas 
+en fonction de si mon e etait < ou > a mon d ce qui avait pour 
+effet de me renvoye tout le temps ma l1. C'est en essayant d'inverser
+que je me suis rendu compte de mon erreur.
+- add_poly : Pour lequel j'essayais pour aucune raison d'afficher mon 
+couple quand mon a + y etait egale 0 ce qui avait pour conscequence de 
+casser toute la suite du code. C'est en me posant deux secondes et en 
+relisant l'enonce que je me suis rendu compte de ma betise ...
+- product poly : Encore une fois pour je ne sais quel raison, j'ai essaye 
+de passer par une fonctions aux qui me sortait mon couple recursivement 
+sauf que caml me sorait un couple de polymorphes ce qui avait pour conscequence
+de ne pas marcher avec le reste des sorties de mon match with qui etaient 
+elles sous la forme (int*int) list. J'ai eu aussi un peu de mal avec le 
+dernier cas mais c'est en me disant je vais commencer avec un cas facile 
+(le cas 3 de mon match with) que j'ai reussi a trouver comment faire le 
+dernier (On peut remercier Ternier pour les "Si t'y arrives pas 
+essayes un cas facile" Pour le coup ca ne m'a jamais autant servi).
+
+En conclusion, j'ai a peu pres tout dit je pense sur mon ressenti.
+Pour finir bonne lecture et : 
+Tu connais la blague du chauffeur de bus ?
+Moi non plus, j’étais à l’arrière…
